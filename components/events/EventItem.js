@@ -12,7 +12,7 @@ function EventItem({ item }) {
     year: 'numeric',
   })
   const formattedAddress = location.replace(',', '\n')
-  const explireLink = `/events/${id}`
+  const exploreLink = `/events/${id}`
 
   return (
     <li className={styles.item}>
@@ -30,7 +30,7 @@ function EventItem({ item }) {
           </div>
         </div>
         <div className={styles.actions}>
-          <Button link={explireLink}>
+          <Button link={exploreLink}>
             <span>Explore Event</span>
             <span className={styles.icon}>
               <ArrowRightIcon />

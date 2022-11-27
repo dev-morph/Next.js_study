@@ -3,11 +3,7 @@ import EventList from '../components/events/EventList'
 
 function HomePages() {
   const featuredEvents = getFeaturedEvents()
-  return (
-    <div>
-      <EventList items={featuredEvents} />
-    </div>
-  )
+  return <div>test</div>
 }
 
 export default HomePages
